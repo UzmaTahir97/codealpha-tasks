@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.8;
+    background-color: beige;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+p{
+    max-width: 40%;
+    min-height: 180px;
+    padding: 20px 10px 10px 10px;
+    border-radius: 7px;
+    border: 2px solid rgb(235, 232, 232);
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+b{
+    font-style: italic;
+    background: none;
+}
+button{
+    margin: 20px;
+    border: 2px solid rgb(124, 123, 123);
+    box-shadow: 2px 3px 4px gray;
+    padding: 5px 13px 5px 13px ;
+    border-radius: 25px;
+}
+
+ h3{
+    margin: 10px 0 15px 0;
+} 

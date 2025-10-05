@@ -1,0 +1,146 @@
+/* /* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right bottom, rgba(29, 14, 238, 0.712)  ,rgb(174, 174, 187));
+    color: aliceblue;
+    display: grid;
+    place-items: center;
+    
+} */
+ /* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Container */
+body {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: #fff;
+  width: 400px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Question */
+.question {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Choices */
+.choice div {
+  background: #f4f4f4;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+
+/* Next Button */
+.nextBtn ,.previousBtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #2575fc;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.previousBtn{
+    display: none;
+}
+
+.choice.selected{
+    color: #131212;
+      background-color: #d1e7dd;
+    border: 2px solid #0f5132;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.nextBtn:hover {
+ background: #1d4ed8; 
+} 
+.previousBtn:hover {
+ background: #1d4ed8; 
+
+}
+.nextBtn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.Result{
+display: none;
+} 
+
+/*  */
+
+.controls {
+  margin-top: 20px;
+  text-align: left;
+  /* text-align: center; */
+}
+
+.controls button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  margin: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+#addBtn {
+  background-color: #58646d; 
+}
+#editBtn {
+  background-color: #FF9800;
+}
+#removeBtn {
+  background-color: #F44336; 
+}
+
+
+.controls button:hover {
+  opacity: 0.85;
+  transform: scale(1.05);
+}
+
+
+
+
